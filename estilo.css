@@ -1,0 +1,39 @@
+body{
+    background-image: url("estrelas.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+#calculadora{
+    height: 130mm;
+    width: 100mm;
+    display: flex;
+    margin: auto;
+}
+
+#resp{
+    width: 99mm;
+    height: 15mm;
+    font-size: 35px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.btn{
+    height: 108px;
+    width: 90px;
+    font-size: 35px;
+    border: none;
+    margin-bottom: 5px;
+    background-color: #d3d2d2;
+}
+
+.btn:hover{
+    background-color: #ebeae9;
+}
